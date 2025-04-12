@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(158, 158, 158);
     color:rgb(255, 255, 255);
     margin: 0;
     padding: 20px;
@@ -7,14 +7,19 @@ body{
 }
 
 h1{
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     text-align: center;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    font-size: 60px;
+    background: linear-gradient(to top, #000000,#ffffff, #050505, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 
 .galeria-item h4{
-    color: rgb(172, 172, 172);
+    color: rgb(255, 255, 255);
 }
 
 .galeria-item img {
@@ -24,6 +29,10 @@ h1{
     border-radius: 10px;
     margin: 5px;
     transition: transform 0.3s ease;
+}
+
+.galeria-item:hover{
+    transform: scale(1.05);
 }
 
 .galeria-item img:hover{
@@ -38,7 +47,7 @@ h1{
     
 }
 
-.galeria-item{
+.galeria-item {
     background-color: #606060;
     border-radius: 8px;
     box-shadow: 02px 5px rgba(0, 0, 0, 1);
@@ -47,5 +56,9 @@ h1{
     text-align: center;
     height: 350px;
     width: 350px;
+    transition: transform 0.3s ease;
 } 
 
+/* .divTransition{
+    transition: transform 0.3s ease;
+} */
