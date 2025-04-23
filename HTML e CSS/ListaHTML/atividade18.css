@@ -1,0 +1,14 @@
+.vermelho{
+    color: #FF0000;
+    color: rgb(255, 0, 0);
+}
+
+.verde{
+    color: #00ff00;
+    color: rgb(0, 255, 0);
+}
+
+.azul{
+    color: #0000ff;
+    color: rgb(0, 0, 255);
+}
