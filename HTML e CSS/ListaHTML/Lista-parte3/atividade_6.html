@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+    <style>
+
+    body{
+        background-color: rgb(224, 224, 224);
+        font-size: 20px;
+    }
+    h1, h3 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:#8b0000;
+    }
+
+        img {
+            width: 300px;
+            height: 300px;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+        }
+
+        .image {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        th {
+            border: 1px solid gray;
+            background-color: rgb(185, 185, 185);
+        }
+
+        td {
+            border: 1px solid gray
+        }
+    </style>
+
     <h1>Leonardo`s Cozinhamentos</h1>
     <h3>Tá com fome? Xia no zap</h3>
 
@@ -19,7 +59,111 @@
         <li>Culinaria de Pacas</li>
     </ul>
 
+
     <h3>Culinária Típica:</h3>
-    
+    <div class="content">
+        <div class="image">
+            <img src="https://www.mundoboaforma.com.br/wp-content/uploads/2022/11/Frango-com-quiabo.jpg" alt="">
+            <p>Frango com quiabo</p>
+        </div>
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0axxsSmdewJpCGAcnpWMxE50-UnuKK2IUNQ&s"
+                alt="">
+            <p>Feijoada</p>
+        </div>
+    </div>
+
+    <h3>Culinária Fitness:</h3>
+    <div class="content">
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAHGZo_DpCM7ydFs3vwfkLTv4ZT_QvJWlosg&s"
+                alt="">
+            <p>Panqueca de Whey</p>
+        </div>
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Q-CWtkxQA-GTcd0kZsL8aChv_jvbiucMLg&s"
+                alt="">
+            <p>Bolo de Caneca de Whey</p>
+        </div>
+    </div>
+
+    <h3>Culinaria Asiática:</h3>
+    <div class="content">
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl8MgEB7xgbaDDCPMnCgRn9LbPt3qvNaAPWQ&s"
+                alt="">
+            <p>Sushi</p>
+        </div>
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzJY_t7taMQ9uKc2rw6AP24FkGnXcpZGQs7Q&s"
+                alt="">
+            <p>Onigiri</p>
+        </div>
+    </div>
+
+    <h3>Culinaria Sedentaria:</h3>
+    <div class="content">
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSwBAUAK8Q9_diZjYbkztyp1Zk9nxoSmsGdQ&s"
+                alt="">
+            <p>Miojo</p>
+        </div>
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6CKSe2X4c-ea4cv6IneFinvnlpBc-pNj_Ug&s"
+                alt="">
+            <p>Hamburguer</p>
+        </div>
+    </div>
+
+    <h3>Culinaria de Pacas:</h3>
+    <div class="content">
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7QGpCINsgO3Qw9RfAdlikX-pawAxj85Z2yw&s"
+                alt="">
+            <p>T-Rex</p>
+        </div>
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKDF4sfsY15XnDiLjvf9FEIKs3XFk8aI_k_g&s"
+                alt="">
+            <p>Gambá</p>
+        </div>
+    </div>
+
+    <table>
+        <tr>
+            <th>Nome da Receita</th>
+            <th>Dificuldade</th>
+            <th>Tempo</th>
+        </tr>
+        <tr>
+            <td>Miojo</td>
+            <td>easy</td>
+            <td>3 minutos</td>
+        </tr>
+        <tr>
+            <td>Bolo de Caneca</td>
+            <td>easy</td>
+            <td>10 minutos</td>
+        </tr>
+        <tr>
+            <td>T-Rex</td>
+            <td>impossible</td>
+            <td>Volta uns anos pra trás ai</td>
+        </tr>
+
+    </table>
+
+    <footer>
+        <p>Links de sites de culinária:</p>
+        <a
+            href="https://www.zerocal.com.br/receitas?gad_source=1&gad_campaignid=17951412890&gbraid=0AAAAACrqHOxSkkdR-rux95ims70MjCzc4&gclid=CjwKCAjwiezABhBZEiwAEbTPGI_eHX2lW0JeKalQSygCVj0JQj4L-qy9MFcag0cfjMHAnmucQqsDdxoCv44QAvD_BwE">Zero.Cal</a>
+        <br>
+        <a
+            href="https://www.piracanjuba.com.br/receitas?utm_source=google-search_cpc&utm_medium=social-ads_whey-lancamentos&utm_campaign=amp_google-search_piracanjuba_na_trafego_receitas_pjca0332&utm_content=amp_google-search_aon_na_na_bra_na_receitas-generico_pjca0332_pjga0333&utm_term=texto_na_na_dti-2024-03-04_dtf-2024-12-31_pjca0332_pjga0333_pjcr0333&gad_source=1&gad_campaignid=21068146959&gclid=CjwKCAjwiezABhBZEiwAEbTPGFWc-2KvspWu_JWJJ0JXp8ROWNecCz_zZyEgyEySDZ-9hQA53uBFwBoCNVoQAvD_BwE">Piracanjuba</a>
+        <br>
+        <a href="https://www.receitasnestle.com.br/">Receitas Nestle</a>
+    </footer>
+
 </body>
+
 </html>
